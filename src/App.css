@@ -1,0 +1,75 @@
+nav {
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #6274d6, #c9a22d);
+  color: rgb(135, 170, 78);
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 35px;
+}
+
+.navitems button {
+  width: 30%;
+  height: 12vh;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: #75198b;
+  /* font-family: serif; */
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  margin: auto 0px;
+}
+
+.fetchbtn:hover {
+  background-color: rgb(219, 186, 186);
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  /* background-image: linear-gradient(to bottom right, #169bb3, #8f2dbd); */
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+.name:hover {
+  color: rgb(47, 9, 184);
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+.profile_cont {
+  border-radius: 15%;
+  background-image: radial-gradient(#986d8e, #ffe6e6);
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
